@@ -1,6 +1,6 @@
 function twoStrings (s1,s2) {
     let output = "NO"
-    for(i=0; i<s1.length; i++) {
+    for(let i=0; i<s1.length; i++) {
         if (s2.includes(s1[i])) {
             output = 'YES'
         }
